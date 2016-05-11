@@ -1,0 +1,36 @@
+{
+  "author": "erwbgy",
+  "dependencies": [
+    {
+      "version_requirement": ">= 0.2.1",
+      "name": "erwbgy/runit"
+    }
+  ],
+  "types": [
+
+  ],
+  "source": "https://github.com/erwbgy/puppet-jboss.git",
+  "project_page": "git.com:erwbgy/puppet-jboss.git",
+  "license": "Apache License, Version 2.0",
+  "version": "0.1.0",
+  "checksums": {
+    "templates/hornetq/run.erb": "0977a1181aa321db2bebcd3f3d3615bc",
+    "manifests/install.pp": "6c464a28861ab750d1df5dbad5db21e6",
+    "manifests/service.pp": "b180f1a0f03d9746d90f81d9acc3c08a",
+    "example.yaml": "64443193566a6668eb3f7d104d9ec766",
+    "README.md": "2b630c521ce53bc024bae40783142038",
+    "manifests/hornetq.pp": "ff452a94a7f15ef6675480e812b909b2",
+    "manifests/as.pp": "f7d41a0d3ea59cb1e2481bedb4f6bb0d",
+    "tests/init.pp": "f2f56501ec50d20957304bf6c69c289f",
+    "manifests/config.pp": "27c97ef95e60116e736815f274df9387",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/jboss-as/run.erb": "4822615ded993363d041e26c5fbf6333",
+    "Modulefile": "3580e0d19d37430cec67f81a786c920b",
+    "manifests/init.pp": "fd0030658933098088ee3b051d1e7f97",
+    "manifests/extra_jars.pp": "c26bd5d2aef66c9eaf84497f310e98e8",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1"
+  },
+  "description": "Install and run JBoss products",
+  "name": "erwbgy-jboss",
+  "summary": "Install and run JBoss products"
+}
